@@ -1,0 +1,173 @@
+
+*{text-align: center; margin-top: 0; padding-top: 0}
+/*не понимаю, почему при margin:0 и padding: 0 даже если ниже меняются отступы, то они все равно все зануляются и получается каша*/
+
+.section{ 
+    height: 700px;
+    
+}
+
+.section_first{
+    height: 510px;
+}
+
+.section_purple{ 
+    background: #500188;
+}
+.section_pink{
+    background: #DC1B8E;
+    
+}
+.section_yellow{
+    background: #ffde00;
+}
+
+.section__area{
+	/* это элемент с фоном сюда можно задать позиионирование и размер фонового изображения 
+		центрирум внутренние элементы section__content и section__pictures
+	*/
+    /*тоже не особо понятно для чего надо, можно ведь через универсальный все задать, еслди же не через него, то странно скачут отступы*/
+	
+}
+.section__area_rocket{
+	/* указываем фоновое изображение рокета */
+    
+    /*в исходном файле оно как просто картинка, и что делать*/
+}
+
+.section__content{
+	/* отступы, чтобы внутренние блоки встали на место */
+    
+    /*идк но они вроде и так встали*/
+}
+
+.section__title{
+    padding-top: 45px;
+	/* стили закголовка */
+}
+
+.section__title_white{
+    color: white;
+
+}
+.section__title_purple{
+    color: #500188;
+
+}
+.section__button{
+    display: block;
+    margin-top: 20px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 108px;
+    border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    /*background: yellow*/
+}
+.section__button_yellow{
+    background: #ffde00;
+}
+.section__button_white{
+    background: white;
+}
+.section__button_purple{
+    background: #500188;
+}
+/*вот с этим вопрос, как красить кнопку (в каком файле)
+если красить не див, а ссылку, то отображается криво; если красить див - то структура становится очень странной*/
+
+.section__text{
+    margin: auto;
+    max-width: 320px;
+    font-size: 15px;
+	
+}
+
+.section__text_white{
+    color: white;
+}
+
+.section__text_purple{
+    color: #500188;
+}
+
+/*со шрифтами жесть, тк пока не получилось поставить фш, делается все через обычный просмотрщик фотографий, потом вытяну данные о шрифтах
+
+с картинками то же самое; расположением их, думаю, лучше заниматься в самый последний момент
+
+думаю, версия для планшета такая же, как и для телефонов, с копьютероной, наверное, лучше разбираться как все будет понятно с мобильной*/
+
+
+.section__pictures{
+	/* стили блока с мелкими картинками , 
+	отступы делаем, чтобы было удобнее размещать картинки внутри */
+}
+
+
+.section__pictures .section__pictures-item{
+	/* стиль маленьких картинок */
+}
+
+.section__pictures .section__pictures-item:nth-child(1){
+    position: relative;
+    top: 35px;
+    height: 45px;
+    width: 45px;
+    left: 130px;
+	/* это немного не по БЭМ, однако главный принцип - рациональный подход, а не теория ради теории
+		поэтому каждую картинку позиционируем внутри так, 
+		эти стили только для позиционирования
+		section__pictures-item - это элемент и в нём основные стили маленьких картинок
+	*/
+}
+.section__pictures .section__pictures-item:nth-child(2){
+    position: relative;
+    top: 100px;
+    height: 39px;
+    widows: 42px;
+    right: 100px;
+	
+}
+.section__pictures .section__pictures-item:nth-child(3){
+	
+}
+.section__pictures .section__pictures-item:nth-child(4){
+	
+}
+.section__pictures .section__pictures-item:nth-child(5){
+	
+}
+
+
+
+
+
+/* версия для планшета */
+@media screen and (min-width: 768px) {
+	
+}
+
+
+/* версия для десктопа */
+@media screen and (min-width: 1366px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

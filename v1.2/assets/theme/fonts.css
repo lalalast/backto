@@ -1,0 +1,26 @@
+/* Подключение шрифтов */
+
+@font-face{
+	/*
+	font-family: 'PT Sans';
+	src: url('../fonts/PTSans/PTSans-Regular.ttf');
+	src: url('../fonts/PTSans/PTSans-Regular.eot?iefix') format('eot'),
+	url('../fonts/PTSans/PTSans-Regular.woff') format('woff'),
+	url('../fonts/PTSans/PTSans-Regular.ttf') format('truetype'),
+	url('../fonts/PTSans/PTSans-Regular.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	*/
+}
+@font-face{
+	/*
+	font-family: 'PT Sans';
+	src: url('../fonts/PTSans/PTSans-Bold.ttf');
+	src: url('../fonts/PTSans/PTSans-Bold.eot?iefix') format('eot'),
+	url('../fonts/PTSans/PTSans-Bold.woff') format('woff'),
+	url('../fonts/PTSans/PTSans-Bold.ttf') format('truetype'),
+	url('../fonts/PTSans/PTSans-Bold.svg#webfont') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	*/
+}
